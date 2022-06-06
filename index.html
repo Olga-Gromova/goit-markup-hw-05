@@ -52,7 +52,7 @@
      <section class="mane-page">
          <div class="container">
             <h1 class="article-mane-page">Эффективные решения для вашего бизнеса</h1>
-            <button class="btn-order">Заказать услугу</button>
+            <button data-modal-open class="btn-order">Заказать услугу</button>
         </div>
     </section>
 
@@ -333,7 +333,21 @@
 
     </section>
 
+<!-- MODAL WINDOW -->
+        
+    <!-- <button data-modal-open>Открыть</button> -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae vero neque labore impedit eius,
+                ullam, dolor obcaecati sapiente, nisi cupiditate quas atque cum excepturi itaque provident? Deleniti, sed
+                asperiores!
+            </p>
+            <button data-modal-close>Закрыть</button>
+        </div>
+    </div>
 
+    
     </main>
 
     <footer class="footer">
@@ -393,6 +407,9 @@
 
         </div>
     </footer>
+    
+    <script src="./js/modal.js"></script>
+
 </body>
 </html>
  
