@@ -110,12 +110,21 @@
             <ul class="about-images">
                 <li class="about-img">
                     <img src="./images/img_pc_updated.jpg" alt="изображение планшета" width="370" height="294">
+                    <div class="label-first">
+                        <p class="label-title">Десктопные приложения</p>
+                    </div>
                 </li>
                 <li class="about-img">
                     <img src="./images/img_phone_updated.jpg" alt="изображение телефона" width="370" height="294">
+                    <div class="label-second">
+                        <p class="label-title">Мобильные приложения</p>
+                    </div>
                 </li>
                 <li class="about-img">
                     <img src="./images/img_web_updated.jpg" alt="изображение цветовой палитры" width="370" height="294">
+                    <div class="label-third">
+                        <p class="label-title">Дизайнерские решения</p>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -332,21 +341,6 @@
         </div>
 
     </section>
-
-<!-- MODAL WINDOW -->
-        
-    <!-- <button data-modal-open>Открыть</button> -->
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae vero neque labore impedit eius,
-                ullam, dolor obcaecati sapiente, nisi cupiditate quas atque cum excepturi itaque provident? Deleniti, sed
-                asperiores!
-            </p>
-            <button data-modal-close>Закрыть</button>
-        </div>
-    </div>
-
     
     </main>
 
@@ -370,7 +364,7 @@
                 </address>
                 </div>
                 <section class="social-links-footer">
-                    <p class="social-links-title">присоединяйтесь</p>
+                    <h2 class="social-links-title">присоединяйтесь</h2>
                     <ul class="footer-social-icons">
                         <li class="footer-social-links">
                             <a href="" class="footer-icons-link">
@@ -407,8 +401,20 @@
 
         </div>
     </footer>
+
+    <!-- MODAL WINDOW -->
     
-    <script src="../js/modal.js"></script>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <p>
+                
+            </p>
+        <button class="close-modal" data-modal-close></button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 
 </body>
 </html>
